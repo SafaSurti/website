@@ -1,0 +1,99 @@
+
+.card-container {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 40px;
+    margin-top: -10px;
+    font-size: 40px;
+}
+
+.card {
+    width: 300px;
+    padding: 7px;
+    margin-top: 50px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: rgb(1, 7, 7);
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.card-title {
+    margin-top: 15px;
+    margin-right: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    /* color: #333; */
+    color: white;
+}
+
+.card-text {
+    margin-top: 0px ;
+    margin-right: 20px;
+   
+    color: white;
+    font-size: 20px;
+}
+
+ 
+
+.card-icon {
+    color: #ff6347; 
+    font-size: 35px;
+     margin-left: 10px;  
+    vertical-align: middle;
+}
+#logo{
+    color:  #ff6347;
+    font-size: 25px;
+    margin-left: 40px;
+}
+.cart-icon{
+    color: #165f26; 
+    font-size: 30px;
+    margin-left: 20px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+#container2{
+width: 100%;
+display: flex;
+background-color: #435f16;
+height: 400px;
+margin-top: 10PX;
+overflow-x: hidden;
+overflow-y: hidden;
+
+}
+.contact{
+    background-color: #435f16;
+    width: 50%;
+display: flex;
+display: flex; flex-wrap: wrap;
+height: 400px;
+}
+.shop{
+    background-color: #44165f;
+    width: 49%;
+    display: flex; flex-wrap: wrap-reverse;
+margin-left:  680px;
+margin-top: -400px;
+height: 400px; 
+}
+  @media (max-width: 768px) {
+    #carouselExampleInterval {
+      max-width: 100%; 
+      height: 300px;
+    }
+  }
